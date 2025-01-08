@@ -1,5 +1,5 @@
 import { Request, Response } from "express-serve-static-core";
-import { CreateUserDto } from "../dtos/CreateUser.dto";
+import { CreateUserDto } from "../dtos/User.dto";
 import { User } from "../types/response";
 
 export function getUsers(request: Request, response: Response) {
